@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootcamp Home</title>
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/day4-styling.css">
+</head>
+<body>
+    <header>WEB DEVELOPMENT BOOTCAMP</header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="book-chapter.html">Book Chapter</a></li>
+            <li><a href="alien-blog.html">Alien Blog</a></li>
+            <li><a href="day4-exercises.html">Day 4 Exercises</a></li>
+            <li><a href="about.html">About Me</a></li>
+        </ul>
+    </nav>
+    <div id="main">
+        <section>
+            <h1>Alien Abduction Order Form</h1>
+            <p>Fill out the form below to place an order for an alien abduction by one of our fine UFOs.</p>
+            <form action="URL HERE" method="POST">
+                <fieldset>
+                    <legend>Your contact information</legend>
+                    <label for="name">Your name</label>
+                    <input type="text" id="name" name="name" maxlength="75" />
+                    <label for="phone">Phone number</label>
+                    <input type="tel" id="phone" name="phone" />
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" maxlength="50" />
+                </fieldset>
+                <fieldset>
+                    <legend>About your abduction</legend>
+                    <label for="date">Requested  date</label>
+                    <input type="text" id="date" name="date" />
+                    <label for="numPeople">How many people would you like abducted?</label>
+                    <input type="number" id="numPeople" name="numPeople" min="1" max="10" />
+
+                    <p>What type of UFO do you prefer?</p>
+                    <label><input type="radio" name="ufoType" value="classic" checked/>Classic oval UFOs</label>
+                    <label><input type="radio" name="ufoType" value="starwars"/>Star Wars-style Imperial cruiser</label>
+                    <label><input type="radio" name="ufoType" value="battlestar"/>Battlestar Galactica-style Viper</label>
+                    <label><input type="radio" name="ufoType" value="startrek"/>Borg-style cube</label>
+
+                    <p>What type of abduction experience do you want?</p>
+                    <select id="abductionType">
+                        <option selected>Select one..</option>
+                        <option value="tour">Tour of the solar system</option>
+                        <option value="alienDinner">Alien dinner and discussion</option>
+                        <option value="alienDance">Alien dance lessons</option>
+                        <option value="whaleWatching">Whale watching</option>
+                    </select>
+                    <br>
+                    <!--
+                    <label><input type="radio" name="abductionType" value="tour"/>Tour of the solar system</label>
+                    <label><input type="radio" name="abductionType" value="alienDinner"/>Alien dinner and discussion</label>
+                    <label><input type="radio" name="abductionType" value="alienDance"/>Alien dance lessons</label>
+                    <label><input type="radio" name="abductionType" value="whaleWatching"/>Whale watching</label>
+                    -->
+                    <label for="specialRequests">Special requests:</label>
+                    <textarea id="specialRequests" name="specialRequests" maxlength="200"></textarea>
+                </fieldset>
+                <label><input type="checkbox" id="emailList" name="emailList" value="subscribe" checked />Add me to your email list!</label>
+                <button type="submit">Order Your Abduction</button>
+                <!--<input type="hidden" name="send_to" value=""/>-->
+            </form>
+        </section>
+        <aside>
+            <h3>Our Location</h3>
+            <address>
+                Frontend Masters &middot;
+                60 South 6th Street &middot;
+                Suite 3625 &middot;
+                Minneapolis, MN 55402
+            </address>
+        </aside>
+    </div>
+    <footer>FOOTER CONTENT TO BE ADDED</footer>
+</body>
+</html>

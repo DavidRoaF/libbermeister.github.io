@@ -1,0 +1,26 @@
+#excerpt {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    color: #4d5b5f;
+}
+
+#excerpt:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#excerpt a, #excerpt a:visited { color: #0284A8; }
+
+#excerpt blockquote p, h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#camera {
+    float: left;
+    width: 12rem;
+    height: 12rem;
+    padding-right: 0.5rem;
+    padding-bottom: 0.5rem;
+}
