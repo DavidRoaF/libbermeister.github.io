@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    color: #0081A7;
+}
+
+h2 {
+    color: #FF1654;
+}
+
+p, li {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+}
+
+.blue_list_items > li::before {
+    content: "\2022";  /* \2022 is the CSS Code/unicode for a bullet */
+    color: #0081A7;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+
+.svg_list_icons > li {
+    position: relative;
+}
+
+.svg_list_icons > li:before {
+    /*
+    custom svg line item icon code found from:
+    https://stackoverflow.com/questions/29932657/how-can-i-make-a-list-style-image-scale-with-the-lists-font-size-when-we-cant
+    */
+    position: absolute;
+    display: block;
+    content: '\2022'; /* bullet point, for screen readers */
+    text-indent: -999999px; /* move the bullet point out of sight */
+    left: -1em;
+    width: 0.6em; /* desired width of the image */
+    height: 1em; /* unrelated to image height; this is so it gets snipped */
+    background-repeat: no-repeat;
+    background-image: url("../custom_list_item_icon.svg");
+    background-size: 0.6em .7em;
+    background-position: 0 .3em;
+}
+
+.small-list {
+    font-size: 85%;
+}
+
+.large-list {
+    font-size: 150%;
+}
+
+.flex_container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.flex_item {
+    margin-right: 2rem;
+    flex-basis: auto;
+}
+
+#my_face, #my_face picture * {
+    width: 100%;
+}
+
+#about_section {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#my_story, #skills_and_tools {
+    margin: 3rem auto 3rem auto;
+    padding: 0 1rem 0 1rem;
+}
+
+#my_story {
+    max-width: 40rem;
+}
+
+#skills_and_tools {
+    max-width: 35rem;
+}
+
+#skills_and_tools h2 {
+    margin: 0;
+}

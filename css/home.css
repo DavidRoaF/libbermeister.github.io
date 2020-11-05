@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: #0081A7;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+}
+
+#welcome_section, #welcome_section picture * {
+    width: 100%;
+}
+
+#my_work_section h1 {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.card_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 3rem;
+    padding: 1rem 4rem 2rem 4rem;
+}
+
+.project_card {
+    box-shadow: 0px 5px 19px #8B9091;
+}
+
+.project_card img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.project_card div {
+    padding: 1.5rem;
+}
+
+.project_card div h2 {
+    margin: 0;
+    color: #00AFB9;
+}
