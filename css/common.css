@@ -1,15 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
 }
 
-#logo {
-    margin: 0;
-    padding: 0px 0px 0px 20px;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
 }
 
-#logo a img {
-    max-width: 184px;
-    max-height: 46px;
+p, li {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
 }
 
 header {
@@ -76,4 +79,14 @@ footer a svg {
 
 .button:hover {
     background-color: #FF5E89;
+}
+
+#logo {
+    margin: 0;
+    padding: 0px 0px 0px 20px;
+}
+
+#logo a img {
+    max-width: 184px;
+    max-height: 46px;
 }

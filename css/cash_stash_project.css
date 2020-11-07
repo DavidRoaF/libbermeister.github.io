@@ -1,0 +1,89 @@
+.project_heading {
+    font-family: 'Roboto Slab', serif;
+}
+
+.project_body_text {
+    font-family: 'Roboto', sans-serif;
+}
+
+#content_overlay {
+    position: absolute;
+    top: 25%;
+    display: flex;
+    padding: 4rem 4rem;
+    width: 100%;
+}
+
+#content_overlay > div {
+    margin: 0 4rem;
+}
+
+#content_overlay img {
+    height: 527px;
+    width: 277px
+}
+
+#intro > img {
+    margin-bottom: 4rem;
+    width: 100%;
+}
+
+#intro_message {
+    color: white;
+    height: 10rem;
+    width: 40rem;
+}
+
+#intro_message h1 {
+    font-size: 42px;
+    font-weight: 600;
+}
+
+#intro_message p {
+    font-size: 24px;
+}
+
+#intro_message svg {
+    width: 8rem;
+    height: 8rem;
+}
+
+#phone_screens {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr)); */
+    grid-template-columns: minmax(20rem, 1fr) minmax(20rem, 1fr);
+    gap: 2rem;
+}
+
+#middle_section {
+    text-align: center;
+}
+
+#middle_section h1 {
+    color: #213150;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 6rem 0 0 0;
+}
+
+#middle_section h2 {
+    color: #6292CE;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0 0 1rem 0;
+}
+
+#middle_section p {
+    color: #213150;
+    font-size: 20px;
+    margin-bottom: 3rem;
+}
+
+#middle_section img {
+    margin: 5rem 0;
+}
+
+#desktop_screens img {
+    border-radius: 18px;
+    box-shadow: 0px 2px 50px 15px #8B9091;
+}
