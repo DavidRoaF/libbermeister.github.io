@@ -2,8 +2,10 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Libbermeister</title>
         <link rel="shortcut icon" href="img/common/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
         <link rel="stylesheet" href="css/common.css">
         <link rel="stylesheet" href="css/cash_stash_project.css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
@@ -24,9 +26,9 @@
                 <a href="#contact">Contact</a>
             </nav>
         </header>
-        <div id="intro">
+        <div id="intro" class="project_content">
             <img src="img/cash_stash/top_backdrop@2x.jpg" alt="Background image of garage."/>
-            <div id="content_overlay">
+            <div id="intro_content">
                 <div id="intro_message">
                     <svg width="108px" height="143px" viewBox="0 0 108 143" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <title>Cash Stash Logo</title>
@@ -47,8 +49,8 @@
                             </g>
                         </g>
                     </svg>
-                    <h1 class="project_heading">Cash Stash<br>Mobile and Desktop App</h1>
-                    <p class="project_body_text">An accessible way for everyone to help save money and manage their finances.</p>
+                    <h2>Cash Stash<br>Mobile and Desktop App</h2>
+                    <p>An accessible way for everyone to help save money and manage their finances.</p>
                 </div>
                 <div id="phone_screens">
                     <img src="img/cash_stash/startup_screen.png" alt="A picture of the app startup screen."/>
@@ -59,22 +61,88 @@
                     <img src="img/cash_stash/edit_saving_goal_screen.png" alt="A picture of the savings goal edit screen."/>
                 </div>
             </div>
+            <div>
+                <p>Designed as part of the CareerFoundry UI Design course.</p>
+            </div>
+            <div>
+                <h2>Why Use Cash Stash?</h2>
+                <ul>
+                    <li>Set financial goals and track your progress using easy to read metrics and charts.</li>
+                    <li>Modify and track your income and expenses to understand your spending and saving habits.</li>
+                    <li>Get advice and tips to make the best of your money and stay on track.</li>
+                </ul>
+            </div>
         </div>
-        <div id="middle_section">
+        <div id="middle_section" class="project_content">
             <div id="desktop_screens">
-                <h1 class="project_heading">Even Better On Desktop!</h1>
-                <p class="project_body_text">The robust and easy-to-read dashboard helps you quickly understand how well you are meeting your goals.</p>
+                <h1>Even Better On Desktop!</h1>
+                <p>The robust and easy-to-read dashboard helps you quickly understand how well you are meeting your goals.</p>
                 <img src="img/cash_stash/saving_goal_desktop_screen@2x.jpg" alt="Image of the saving goal dashboard."/>
                 <img src="img/cash_stash/finances_desktop_screen@2x.jpg" alt="Image of the finances dashboard."/>
             </div>
             <div>
-                <h1 class="project_heading">Designing the App</h1>
-                <h2 class="project_heading">User Flows</h2>
+                <h2>Designing the App</h2>
+                <h3 class="sans_serif">User Flows</h3>
                 <img src="img/cash_stash/user_flow@2x.jpg" alt="Image of app user flows."/>
             </div>
         </div>
-        <div id="bottom_section">
-            <!-- TO FILL -->
+        <div id="bottom_section" class="project_content">
+            <img src="img/cash_stash/middle_backdrop@2x.jpg"/>
+            <img src="img/cash_stash/bottom_backdrop@2x.jpg"/>
+            <div id="style_guide" class="content_overlay">
+                <h3 class="sans_serif">Style Guide</h3>
+                <div id="style_guide_grid">
+                    <div id="color_palette">
+                        <h4>Color Palette</h4>
+                        <div id="color_palette_grid">
+                            <div>
+                                <h5 class="sans_serif">Navy Blue</h5>
+                                <p>#213150</p>
+                            </div>
+                            <div class="color_circle navy_blue"></div>
+                            <div>
+                                <h5 class="sans_serif">Medium Blue</h5>
+                                <p>#2556A6</p>
+                            </div>
+                            <div class="color_circle medium_blue"></div>
+                            <div>
+                                <h5 class="sans_serif">Pastel Blue</h5>
+                                <p>#6292CE</p>
+                            </div>
+                            <div class="color_circle pastel_blue"></div>
+                            <div>
+                                <h5 class="sans_serif">Gray Blue</h5>
+                                <p>#A5B8E0</p>
+                            </div>
+                            <div class="color_circle gray_blue"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <h4>Typography</h4>
+                        <div id="typography_flex">
+                            <div>
+                                <h4>Roboto Slab</h4>
+                                <h1>Aa</h1>
+                                <p>Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</p>
+                            </div>
+                            <div>
+                                <h4 class="sans_serif">Roboto</h4>
+                                <h1 class="sans_serif">Aa</h1>
+                                <p>Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</p>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>Title</h5>
+                            <h6>Subheading</h6>
+                            <p>Body Text - Use this font for field text and labels. Make sure you use regular weight for most cases.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="thank_you_section">
+                <h1>Thank you for checking out my project!</h1>
+                <img src="img/cash_stash/macbook_mockup.png"/>
+            </div>
         </div>
         <footer id="contact">
             <h1>Stay In Touch!</h1>

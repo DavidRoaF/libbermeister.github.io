@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="4px" viewBox="0 0 10 4" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>List Item 1</title>
+    <g id="Desktop-Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="About-Screen" transform="translate(-808.000000, -695.000000)" fill="#00AFB9">
+            <g id="Skills-and-Tools" transform="translate(792.000000, 620.000000)">
+                <g id="Skills-Section" transform="translate(0.000000, 43.000000)">
+                    <g id="List-Item-Markers" transform="translate(16.000000, 32.000000)">
+                        <rect id="List-Item-1" x="0" y="0" width="10" height="4"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

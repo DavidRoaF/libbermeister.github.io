@@ -1,16 +1,25 @@
+/*
+=== Colors Used ===
+#0081A7 - Medium blue
+#97DFFC - Light blue
+#00AFB9 - Teal
+#FFFFFF - White
+#FF1654 - Magenta
+
+=== Fonts Used ===
+Montserrat - used for headings
+Nunito - used for regular text
+*/
+
 * {
     box-sizing: border-box;
-}
-
-body {
-    margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
 }
 
-p, li {
+a, p, li {
     font-family: 'Nunito', sans-serif;
     font-size: 18px;
 }
@@ -33,7 +42,7 @@ header nav a {
     padding: 20px;
 }
 
-header nav a:hover {
+header nav a:hover, header nav a:focus {
     color: #97DFFC;
 }
 
@@ -67,18 +76,17 @@ footer a svg {
     background-color: #FF1654;
     color: white;
     display: inline-block;
-    font-family: 'Nunito', sans-serif;
-    font-size: 18px;
     font-weight: bold;
     letter-spacing: 0.75px;
     padding: 10px 16px 10px 16px;
     border-radius: 24px;
     text-align: center;
     text-decoration: none;
+    transition: 0.2s opacity;
 }
 
-.button:hover {
-    background-color: #FF5E89;
+.button:hover, .button:active, .button:focus {
+    opacity: 0.7;
 }
 
 #logo {
