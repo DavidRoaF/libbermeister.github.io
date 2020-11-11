@@ -96,7 +96,7 @@ h6.sans_serif {
 }
 
 #intro > img {
-    margin-bottom: 4rem;
+    margin-bottom: 16rem;
     width: 100%;
 }
 
@@ -122,11 +122,38 @@ h6.sans_serif {
     gap: 2rem;
 }
 
+#intro_content_footnote {
+    position: absolute;
+    top: 52rem;
+    left: 8rem;
+}
+
+#intro_content_footnote p {
+    font-size: 24px;
+    color: #C5DFFF;
+}
+
+#intro_content_description {
+    position: absolute;
+    top: 72rem;
+    left: 8rem;
+    max-width: 36rem;
+}
+
+#intro_content_description h2, #intro_content_description li {
+    color: #ffffff;
+}
+
+#intro_content_description li {
+    font-size: 24px;
+    padding: 0.5rem 0;
+}
+
 #middle_section {
     text-align: center;
 }
 
-#middle_section h1 {
+#middle_section h2 {
     color: #213150;
     margin: 6rem 0 0 0;
 }
@@ -167,10 +194,10 @@ h6.sans_serif {
 
 #bottom_section > div {
     position: relative;
-    top: -132rem;
+    top: -110rem;
 }
 
-#bottom_section img {
+#bottom_section > img {
     margin: 0;
     width: 100%;
 }
