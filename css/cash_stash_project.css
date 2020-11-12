@@ -155,12 +155,12 @@ h6.sans_serif {
 
 #middle_section h2 {
     color: #213150;
-    margin: 6rem 0 0 0;
+    margin: 6rem 0 0.75rem 0;
 }
 
 #middle_section h3 {
     color: #6292CE;
-    margin: 0 0 1rem 0;
+    margin: 0;
 }
 
 #middle_section p {
@@ -208,24 +208,40 @@ h6.sans_serif {
 
 #style_guide_grid {
     display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
-    gap: 2rem;
+    /*grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );*/
+    grid-template-columns: auto auto;
+    gap: 10rem;
+}
+
+#color_palette > h4, #typography > h4 {
+    color: #8AE2FF;
+    margin: 1rem 0 1rem 0;
 }
 
 #color_palette_grid {
     display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
-    /*grid-template-columns: 10rem 3rem;*/
+    /*grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );*/
+    grid-template-columns: minmax(10rem, 1fr) 4rem;
     gap: 1rem;
 }
 
 #typography_flex {
     display: flex;
     color: #ffffff;
+    gap: 4rem;
+    margin-bottom: 2rem;
+}
+
+#typography_flex h1 {
+    margin: 1rem 0;
 }
 
 #thank_you_section {
     text-align: center;
     width: 75%;
     margin: 12rem auto;
+}
+
+#thank_you_section h1 {
+    margin-bottom: 6rem;
 }
