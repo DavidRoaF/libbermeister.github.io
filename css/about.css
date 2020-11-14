@@ -50,12 +50,7 @@ ul {
 
 .flex_container {
     display: flex;
-    align-items: flex-start;
-}
-
-.flex_item {
-    margin-right: 2rem;
-    flex-basis: auto;
+    flex-flow: row wrap;
 }
 
 #my_face, #my_face picture * {
@@ -63,23 +58,32 @@ ul {
 }
 
 #about_section {
-    display: flex;
-    flex-flow: row wrap;
+    justify-content: center;
 }
 
-#my_story, #skills_and_tools {
-    margin: 3rem auto 3rem auto;
-    padding: 0 1rem 0 1rem;
+#about_section > div {
+    margin: 4rem 4rem;
 }
 
 #my_story {
-    max-width: 40rem;
+    max-width: 35rem;
 }
 
-#skills_and_tools {
+#skills_and_tools > div {
+    min-width: 20rem;
     max-width: 35rem;
 }
 
 #skills_and_tools h2 {
     margin: 0;
+}
+
+@media only screen and (max-width: 640px) {    
+    #about_section > div {
+        margin: 1rem 2rem;
+    }
+
+    #skills_and_tools > div {
+        min-width: 0rem;
+    }
 }
