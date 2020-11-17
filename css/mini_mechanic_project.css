@@ -9,8 +9,8 @@ body img {
 }
 
 .img-spacing {
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .project_header {
@@ -34,32 +34,95 @@ h2.project_header {
     margin-bottom: 0.5rem;
 }
 
-#content_overlay {
-    position: absolute;
-    top: 25%;
-    display: flex;
-    align-items: center;
-    margin: 0 10rem;
-}
-
 #content_overlay > div {
-    margin: 0 4rem 0 4rem;
+    margin: 0 2rem;
 }
 
 #intro > img {
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     width: 100%;
 }
 
 #intro_message * {
-    color: white;
+    color: #2D2D2D;
 }
 
-#intro_message h1 {
-    font-size: 42px;
-    font-weight: 600;
+@media only screen and (min-width: 641px) {
+    h1.project_header {
+        font-size: 28px;
+    }
+    
+    h2.project_header {
+        font-size: 24px;
+    }
+    
+    p.project_body_text {
+        font-size: 18px;
+    }
+
+    .img-spacing {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+    
+    #content_overlay {
+        position: absolute;
+        top: 10%;
+        display: flex;
+        align-items: center;
+        margin: 0 2rem;
+    }
+
+    #content_overlay > div {
+        margin: 0 4rem 0 4rem;
+    }
+
+    #intro_message * {
+        color: #ffffff;
+    }
+
+    #intro_message h1 {
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    #intro_message p {
+        font-size: 20px;
+    }
+
+    #intro > img {
+        margin-bottom: 4rem;
+        width: 100%;
+    }
 }
 
-#intro_message p {
-    font-size: 24px;
+@media only screen and (min-width: 1440px) {
+    h1.project_header {
+        font-size: 32px;
+    }
+    
+    h2.project_header {
+        font-size: 28px;
+    }
+    
+    p.project_body_text {
+        font-size: 18px;
+    }
+    
+    #intro_message h1 {
+        font-size: 42px;
+        font-weight: 600;
+    }
+
+    #intro_message p {
+        font-size: 24px;
+    }
+
+    #content_overlay {
+        position: absolute;
+        top: 25%;
+        display: flex;
+        align-items: center;
+        margin: 0 10rem;
+    }
 }
