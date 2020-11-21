@@ -25,34 +25,34 @@ h1, h2, h3, h4, h5, h6 {
 
 a, p, li {
     font-family: 'Nunito', sans-serif;
-    /*font-size: 18px;*/
 }
 
 header {
-    width: 100%;
-    min-height: 68px;
     background-color: #0081A7;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
+    min-height: 68px;
+    width: 100%;
     position: fixed;
     box-shadow: 0px 5px 10px rgba(85, 85, 85, 0.25);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     z-index: 1000;
 }
-
-header nav a {
+  
+nav {
+    float: right;
+}
+  
+nav a {
     display: inline-block;
     color: white;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 600;
-    padding: 14px 24px;
-}
-
-header nav a:hover, header nav a:focus {
-    color: #97DFFC;
+    padding: 22px 24px;
+    text-align: center;
+    vertical-align: middle;
 }
 
 main {
@@ -85,10 +85,6 @@ footer a svg {
     margin: 0 0.5rem;
 }
 
-.active_tab {
-    border-bottom: 4px solid #97DFFC;
-}
-
 .button {
     background-color: #FF1654;
     color: white;
@@ -107,9 +103,8 @@ footer a svg {
 }
 
 #logo {
-    flex: auto;
-    margin: 0;
-    padding-left: 24px;
+    float: left;
+    padding: 9px 24px;
 }
 
 #logo a img {
@@ -145,12 +140,45 @@ footer a svg {
     }
 
     main {
-        padding-top: 110px;
+        padding-top: 68px;
+    }
+
+    .active_tab {
+        background-color: #00AFB9;
+    }
+
+    .icon {
+        position: absolute;
+        right: 0;
+        top: 12px;
+    }
+
+    .navlinks.responsive {
+        display: block;
+    }
+    
+    .navlinks a:not(:last-child) {
+        display: none;
+    }
+
+    .navlinks.responsive a {
+        display: block;
     }
 
     #logo {
         display: inline-block;
         text-align: center;
-        padding: 0;
+        padding: 0 0 0 12px;
+    }
+}
+
+@media only screen and (min-width: 641px) {
+    nav a:last-child {
+        display: none;
+    }
+
+    .active_tab {
+        border-bottom: 4px solid #00AFB9;
+        padding: 22px 24px 18px 24px;
     }
 }
