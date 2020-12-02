@@ -69,6 +69,10 @@ h6.sans_serif {
     flex-wrap: wrap;
 }
 
+.flex_images {
+    align-items: center;
+}
+
 #style_guide {
     color: white;
 }
@@ -279,6 +283,7 @@ h6.sans_serif {
 
     .phone_screen {
         width: 240px;
+        display: inline-block;
     }
 
     #intro {
@@ -343,7 +348,7 @@ h6.sans_serif {
         border-radius: 8px;
         box-shadow: 0px 2px 25px 8px #8B9091;
         display: block;
-        margin: 8rem auto;
+        margin: 6rem auto;
         width: 80%;
     }
 

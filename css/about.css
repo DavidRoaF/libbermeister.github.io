@@ -10,14 +10,6 @@ ul {
     list-style: none;
 }
 
-.blue_list_items > li::before {
-    content: "\2022";  /* \2022 is the CSS Code/unicode for a bullet */
-    color: #0081A7;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
-  }
-
 .svg_list_icons > li {
     position: relative;
 }
@@ -39,6 +31,14 @@ ul {
     background-size: 0.6em .7em;
     background-position: 0 .3em;
 }
+
+.blue_list_items > li::before {
+    content: "\2022";  /* \2022 is the CSS Code/unicode for a bullet */
+    color: #0081A7;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
 
 .small-list {
     font-size: 85%;

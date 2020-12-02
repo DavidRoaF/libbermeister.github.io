@@ -160,49 +160,49 @@ p {
         }
     }
     
-    #rect_light_blue_left {
+    .rect_light_blue_left {
         animation-duration: 3s;
         animation-name: moveRectangle1;
         animation-iteration-count: infinite;
     }
     
-    #rect_teal_left {
+    .rect_teal_left {
         animation-duration: 2s;
         animation-name: moveRectangle2;
         animation-iteration-count: infinite;
     }
     
-    #rect_magenta_left {
+    .rect_magenta_left {
         animation-duration: 4s;
         animation-name: moveRectangle3;
         animation-iteration-count: infinite;
     }
     
-    #rect_blue_left {
+    .rect_blue_left {
         animation-duration: 3s;
         animation-name: moveRectangle4;
         animation-iteration-count: infinite;
     }
     
-    #rect_magenta_right {
+    .rect_magenta_right {
         animation-duration: 3s;
         animation-name: moveRectangle5;
         animation-iteration-count: infinite;
     }
     
-    #rect_teal_right {
+    .rect_teal_right {
         animation-duration: 4s;
         animation-name: moveRectangle6;
         animation-iteration-count: infinite;
     }
     
-    #rect_blue_right {
+    .rect_blue_right {
         animation-duration: 2s;
         animation-name: moveRectangle7;
         animation-iteration-count: infinite;
     }
     
-    #rect_light_blue_right {
+    .rect_light_blue_right {
         animation-duration: 3s;
         animation-name: moveRectangle8;
         animation-iteration-count: infinite;
@@ -314,49 +314,49 @@ p {
         }
     }
     
-    #rect_light_blue_left {
+    .rect_light_blue_left {
         animation-duration: 3s;
         animation-name: moveRectangle1;
         animation-iteration-count: infinite;
     }
     
-    #rect_teal_left {
+    .rect_teal_left {
         animation-duration: 2s;
         animation-name: moveRectangle2;
         animation-iteration-count: infinite;
     }
     
-    #rect_magenta_left {
+    .rect_magenta_left {
         animation-duration: 4s;
         animation-name: moveRectangle3;
         animation-iteration-count: infinite;
     }
     
-    #rect_blue_left {
+    .rect_blue_left {
         animation-duration: 3s;
         animation-name: moveRectangle4;
         animation-iteration-count: infinite;
     }
     
-    #rect_magenta_right {
+    .rect_magenta_right {
         animation-duration: 2s;
         animation-name: moveRectangle5;
         animation-iteration-count: infinite;
     }
     
-    #rect_teal_right {
+    .rect_teal_right {
         animation-duration: 4s;
         animation-name: moveRectangle6;
         animation-iteration-count: infinite;
     }
     
-    #rect_blue_right {
+    .rect_blue_right {
         animation-duration: 2s;
         animation-name: moveRectangle7;
         animation-iteration-count: infinite;
     }
     
-    #rect_light_blue_right {
+    .rect_light_blue_right {
         animation-duration: 3s;
         animation-name: moveRectangle8;
         animation-iteration-count: infinite;
