@@ -53,6 +53,10 @@ ul {
     flex-flow: row wrap;
 }
 
+.flex_item {
+    padding-right: 1rem;
+}
+
 #my_face, #my_face picture * {
     width: 100%;
 }

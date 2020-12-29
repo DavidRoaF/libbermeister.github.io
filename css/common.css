@@ -13,6 +13,7 @@ Nunito - used for regular text
 
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -66,17 +67,23 @@ main {
 footer {
     background-color: #0081A7;
     text-align: center;
-    padding: 2rem;
+    padding: 2.5rem;
 }
 
 footer h1 {
-    color: #97DFFC;
+    color: #FFFFFF;
     margin: 0.5rem;
 }
 
 footer p {
-    color: white;
-    margin: 0.5rem;
+    color: #FFFFFF;
+    line-height: 1.4;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+footer p:last-child {
+    margin: 0;
 }
 
 footer div {
@@ -99,11 +106,23 @@ footer a svg {
     border-radius: 24px;
     text-align: center;
     text-decoration: none;
-    transition: 0.75s opacity;
 }
 
 .button:hover {
-    opacity: 0.7;
+    background-color: #fa4978;
+    transition: background-color 0.5s ease;
+}
+
+.svg-background {
+    fill: #0081A7;
+}
+
+.svg-foreground {
+    fill: #ffffff;
+}
+
+.svg-link:hover {
+    box-shadow: 0px 5px 19px #062e4e;
 }
 
 #logo {
