@@ -120,9 +120,14 @@ h2.project_header {
 
     #content_overlay {
         position: absolute;
-        top: 25%;
+        top: 10%;
         display: flex;
         align-items: center;
         margin: 0 10rem;
+    }
+
+    #content_overlay img {
+        max-width: 326px;
+        max-height: 644px;
     }
 }

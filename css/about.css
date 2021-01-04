@@ -12,6 +12,7 @@ ul {
 
 .svg_list_icons > li {
     position: relative;
+    line-height: 1.4;
 }
 
 .svg_list_icons > li:before {
@@ -71,6 +72,10 @@ ul {
 
 #my_story {
     max-width: 35rem;
+}
+
+#my_story p {
+    line-height: 1.4;
 }
 
 #skills_and_tools > div {
